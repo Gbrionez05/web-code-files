@@ -1,0 +1,86 @@
+
+.contactFormWrap {
+	background-color: var(--tan) !important;
+}
+
+/*--#3d4dc33 .formWrap--*/
+.wpcf7 input[type="text"], input[type="email"], input[type="tel"], textarea  {
+	background-color: rgba(0, 0, 0, 0.06) !important;
+	border: none !important;
+	/*--color: var(--brown) !important;--*/
+	font-family: "League Spartan", Century Gothic Bold, sans-serif !important;
+	font-weight: 700 !important;
+
+}
+
+
+.formWrap { /*--top level form wrapper--*/
+	margin: 7% 0% 6%;
+	width: 100%;
+	height: auto;
+}
+
+.formInnerWrap {  /*--Row styles--*/
+	display: flex;
+	flex-wrap: wrap;
+ 	flex-direction: row;
+ 	width: 95%;
+	justify-content: space-between;
+	margin: 18px;
+}
+
+.formColumn { /*--Column styles--*/
+	display: flex;
+ 	flex-direction: column;
+ 	flex-basis: 90%;
+ 	flex: 1;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.insideForm {
+	width: 95%;
+	height: 40px;
+}
+
+.wpcf7 input::placeholder, textarea::placeholder {
+	color: var(--white) !important;
+}
+
+.wpcf7 input {
+	height: 40px;
+	width: 100%;
+}
+
+.fullFormColumn {
+	display: flex;
+ 	flex-direction: column;
+ 	flex-basis: 90%;
+ 	flex: 1;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	margin: 0 10px;
+}
+
+.fullFormColumn p{
+	width: 100% !important;
+	height: auto;
+}
+
+
+.messageBox {
+	width: 100% !important;
+	flex-grow: 1;
+	flex-basis: 100%;
+}
+
+.formWrap #submitBtn {
+	background-color: var(--burgundy) !important;
+	font-size: 1.5em !important;
+	border: none !important;
+	color: var(--white) !important;
+}
+
+.formWrap #submitBtn:hover {
+	background-color: var(--brown) !important;
+}
