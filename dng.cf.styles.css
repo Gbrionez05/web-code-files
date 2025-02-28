@@ -1,0 +1,55 @@
+/*--New Form styles--*/
+/*--Homepage Form start--*/
+#homepageForm.fullForm {
+	max-width: 80% !important;
+	margin: 10px 0 !important;
+	}
+	
+#homepageForm.fullForm .formRow {
+	width: 100% !important;
+	height: 100% !important;
+	overflow: auto !important;
+	}
+	
+#homepageForm.fullForm input {
+	height: 40px !important;
+	padding: 8px !important;
+	margin-bottom:10px !important;
+ 	width: 100% !important;
+	}
+	
+#homepageForm.fullForm textarea {
+	padding: 10px !important;
+	margin-bottom: 10px !important;
+	width: 100% !important;
+	height: 75px !important;
+	}
+	
+#homepageForm.fullForm select {
+	height: 40px !important;
+	padding: 8px !important;
+	margin-bottom: 10px !important;
+	width: 100% !important;
+	}
+	
+#homepageForm.fullForm .submitWrap {
+	width: 280px !important;
+	margin: 0 auto !important;
+	float: left !important;
+	}
+	
+#formSubmit {
+	width: 100% !important;
+	height: auto !important;
+	font-size: 1.5em !important;
+	font-weight: 500 !important;
+	color: #fff !important;
+	background-color: var(--red) !important;
+	border-radius: 10px !important;
+	border-style: none hidden !important;
+}
+
+#formSubmit:hover {
+	background-color: var(--tan) !important;
+ 	color: #fff;
+}
